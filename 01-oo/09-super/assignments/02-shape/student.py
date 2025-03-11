@@ -47,4 +47,12 @@ class Ellipse:
         raise NotImplementedError()
     
 
-class Circle:
+class Circle(Ellipse):
+
+    def __init__(self,radius):
+        self.__radius =radius
+
+    @property
+    def radius(self):
+        return self.__radius  
+
