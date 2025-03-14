@@ -1,18 +1,18 @@
 
 
-class Person:
-    def __init__(self, *, name ,age):
-        self.name = name
-        self.age = age
+# class Person:
+#     def __init__(self, *, name ,age):
+#         self.name = name
+#         self.age = age
 
-class Card:
-    def __init__(self,*,value,suit):
-        self.value = value
-        self.suit = suit
+# class Card:
+#     def __init__(self,*,value,suit):
+#         self.value = value
+#         self.suit = suit
 
 
-def age(person):
-    return person.age
+# def age(person):
+#     return person.age
 
 # print(age(Person(name='John', age = 14)))
 
