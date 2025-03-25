@@ -19,12 +19,11 @@
 def group_by(xs, key_function):
     a = {}
     for i in xs:
-        x = key_function(i)
-        new_list = []
-        for z in xs:
-            if x == key_function(i):
-                new_list.append(z.value)
-        a[x]=new_list
+        z = []
+        for n in xs:
+            if key_function(i) == key_function(n):
+                z.append(n)
+            a[key_function(i)] = z
 
     return a
 
